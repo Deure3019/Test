@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    int num1=472, num2=385, f1,f2,f3,Re;
+    int num1, num2, f1,f2,f3,Re;
     scanf("%d %d", &num1, &num2);
     f1 = num1 * (num2 % 10);
     f2 = num1 * (num2 / 10 % 10);
